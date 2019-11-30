@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style_css/form.css">
+  <link rel="stylesheet" href="style_css/style.css">
+  <meta charset="utf-8">
+  <meta name="Description" content="HTML form">
+  <meta name="keywords" content="HTML,CSS,FORM">
+  <meta name="author" content="Monica D'Agosto">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAGOSTO-Assignment1</title>
+</head>
+
+<body> 
+<header>
+  <h1 class="white margin12">Hidden London</h1>
+
+<!--navigation-->
+  <nav>
+    <div class="topnav">
+      <a href="login.html">Log In / Register</a>
+      <a class="active" href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="index.html">Home</a>
+    </div>
+  </nav>
+</header>
+
+<p></p>
+
+<!--main-->
+<main>
+  <article>
+    <div class = "main-container">
+      <h2 class="title">Contact us</h2>
+      <pre class="contact"><b>
+      The Walkers
+      99 Star Lane  
+      London
+      E1 3RP</b></pre>
+      
+      <form action="" method="POST" autocomplete="on">
+          <p>
+            <label class="label-margins" for="c-fullnametxt" id="c-fullnamelbl">Please enter your full name</label>
+             <br>>  
+            <input class="input-margins" type="text" name="contact-fullname-text" id="c-fullnametxt" placeholder="Full Name">
+          </p>
+          <p>
+            <label class="label-margins" for="c-emailtxt" id="c-emaillbl">Please enter your email address</label>
+             <br>    
+            <input class="input-margins" type="email" name="contact-email-text" id="c-emailtxt" placeholder="Email" required>
+         </p>
+         <p>
+           <label class="label-margins" for="c-textarea" id="c-textarea-lbl">Message</label>
+             <br>   
+           <textarea class="textarea-margins" id="c-textarea" placeholder="Message" required></textarea> 
+        </p>
+        <p>  
+          <button type="submit" id ="csub" formaction="./contact_submitted.html">Send</button>
+        </p>
+     </form> 
+    </div>  
+  </article>     
+</main>        
+</body>   
+</html>
+
+<!--footer-->
+<footer>
+  <p class="footer">&copy; Monica D'Agosto<p>
+</footer>
+  

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style_css/form.css">
+  <link rel="stylesheet" href="style_css/style.css">
+  <meta charset="utf-8">
+  <meta name="Description" content="HTML form">
+  <meta name="keywords" content="HTML,CSS,FORM">
+  <meta name="author" content="Monica D'Agosto">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAGOSTO-Assignment1</title>
+</head>
+
+<body> 
+<header>
+  <h1 class="white margin12">Hidden London</h1>
+
+<!--navigation-->
+  <nav>
+    <div class="topnav">
+      <a class="active" href="login.html">Log In / Register</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+      <a href="index.html">Home</a>
+    </div>
+  </nav>
+</header>
+
+<p></p>
+
+<!--main-->
+<main>
+  <article>
+    <div class = "main-container">
+        
+      <h2 class="font50">Register Here</h2>
+      
+      <form action="/example.html" method="POST" autocomplete="on">
+        <p>
+          <label class="label-margins" for="r-fnametxt" id="r-fnamelbl">First Name</label>
+            <br>   
+          <input class="reg-input-margins" type="text" name="reg-firstname-text" id="r-fnametxt" placeholder="First Name" required>
+        </p>             
+        <p>
+          <label class="label-margins" for="r-snametxt" id="r-snamelbl">Surname</label>
+            <br>
+          <input class="reg-input-margins" type="text" name="reg-surname-text" id="r-snametxt" placeholder="Surname" required>
+        </p> 
+        <div class="check">Gender
+            <br>
+          <input type="radio" name="gender" value="Male" checked> Male<br>
+          <input type="radio" name="gender" value="Female"> Female<br>
+        </div>
+        <p>
+          <label class="label-margins" for="r-dobtxt" id="r-doblbl">Date of Birth</label>
+            <br>    
+          <input class="reg-input-margins" type="date" name="reg-dob-text" id="r-dobtxt" placeholder="" required>
+        </p>
+        <p>
+          <label class="label-margins" for="r-teltxt" id="r-tellbl">Telephone Number</label>
+            <br>    
+          <input class="reg-input-margins" type="tel" name="reg-tel-text" id="r-teltxt" placeholder="">
+        </p>
+        <p>
+         <label class="label-margins" for="r-emailtxt" id="r-emaillbl">Email</label>
+           <br>    
+         <input class="reg-input-margins" type="email" name="reg-email-text" id="r-emailtxt" placeholder="Email" required>
+        </p>
+        <div class="check">Preferred Contact Method
+           <br>
+         <input type="checkbox" name="contact1" value="Phone"> Phone<br>
+         <input type="checkbox" name="contact2" value="Email"> Email<br>
+        </div>
+        <p>
+         <label class="label-margins" for="city">Favourite Walking Cities</label>
+          <br>
+         <input class="reg-input-margins" type="text" list="cities" id="city" name="city">
+
+         <datalist id="cities">
+           <option value="London"></option>
+           <option value="Manchester"></option>
+           <option value="Liverpool"></option>
+           <option value="Bath"></option>
+           <option value="Bristol"></option>
+           <option value="Other"></option>  
+        </datalist>
+       </p>
+       <p>
+         <label class="label-margins" for="lunch">Your Walking Regular Mileage</label>
+           <br>
+         <select id="lunch" name="lunch" class="round">
+          <option value="1 mile">1 mile</option>
+          <option value="2 miles">2 miles</option>
+          <option value="3 miles">3 miles</option>
+          <option value="4 miles">4 miles</option>
+          <option value="5 miles">5 miles</option>
+        </select>
+      </p>
+      <p>
+       <label class="label-margins" for="r-exptxt" id="r-explbl">Years of Group Walking Experience</label>
+        <br>    
+       <input class="round" type="number" name="reg-experience-text" id="r-exptxt" step="1" placeholder="  ">
+     </p>
+     <p>
+      <label class="label-margins" for="text" id="text">More Information</label>
+        <br>   
+      <textarea class="textarea-margins" id="text" placeholder="Please enter more information here" required></textarea> 
+    </p>
+    <p>  
+      <button type="submit" id ="asub" formaction="./contact_submitted.html">Register</button>
+    </p>
+</form> 
+
+</div>  
+</article>     
+</main>               
+</body>
+</html>
+
+<!--footer-->
+<footer>
+    <p class="footer">&copy; Monica D'Agosto<p>
+</footer>
