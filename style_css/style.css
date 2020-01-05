@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image:  url("https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/08/20/14/green-park-2932220-1920.jpg?w968");
+    background-image: url(5.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: right top;

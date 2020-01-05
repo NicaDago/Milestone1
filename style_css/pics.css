@@ -2,25 +2,24 @@
   width:380px;
   height:380px;
   background: url(1.jpg) no-repeat;
-  /*background: url(https://media.timeout.com/images/103436827/750/422/image.jpg) no-repeat;*/
-  
 }
+
 .pic2{
   width:380px;
   height:380px;
-  background: url(https://i1.wp.com/www.poppyloves.co.uk/wp-content/uploads/2015/07/Postmans-Park-by-Chris-Downer-1.jpg?w=640) no-repeat;
+  background: url(2.jpg) no-repeat;
 }
+
 .pic3{
   width:380px;
   height:380px;
-  background: url(https://media.timeout.com/images/102931720/750/422/image.jpg) no-repeat;
-  
+  background: url(3.jpg) no-repeat;
 }
+
 .pic4{
   width:380px;
   height:380px;
-  background: url(https://media.timeout.com/images/64660/750/422/image.jpg) no-repeat;
-  
+  background: url(4.jpg) no-repeat; 
 }
 
 .pictext{
